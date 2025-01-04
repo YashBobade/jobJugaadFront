@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from thewebmax.org/jobzilla/candidate-change-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2024 05:24:54 GMT -->
+<!-- Mirrored from thewebmax.org/jobzilla/candidate-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2024 05:24:39 GMT -->
 <head>
     <!-- META -->
     <meta charset="utf-8">
@@ -58,10 +58,10 @@
             </div>
         </div>
     </div>
-    <!-- LOADING AREA  END ====== --> 
-     <?php
-    include('header.php');
-     ?>
+   
+<?php
+include('headers.php');
+?>
       
         <!-- CONTENT START -->
         <div class="page-content">
@@ -73,7 +73,7 @@
                     <div class="wt-bnr-inr-entry">
                         <div class="banner-title-outer">
                             <div class="banner-title-name">
-                                <h2 class="wt-title">Candidate Change Password</h2>
+                                <h2 class="wt-title">Candidate Profile</h2>
                             </div>
                         </div>
                         <!-- BREADCRUMB ROW -->                            
@@ -81,7 +81,7 @@
                             <div>
                                 <ul class="wt-breadcrumb breadcrumb-style-2">
                                     <li><a href="index.html">Home</a></li>
-                                    <li>Candidate Change Password</li>
+                                    <li>Candidate Profile</li>
                                 </ul>
                             </div>
                         
@@ -122,7 +122,7 @@
                                 </div>
                                
                                 <div class="twm-nav-list-1">
-                                <ul>
+                                    <ul>
                                         <li><a href="candidate-dashboard.php"><i class="fa fa-tachometer-alt"></i> Dashboard</a></li>
                                         <li ><a href="candidate-profile.php"><i class="fa fa-user"></i> My Profile</a></li>
                                         <li><a href="View_Profile.php"><i class="fa fa-eye"></i> View Profile</a></li>
@@ -142,74 +142,32 @@
 
                         <div class="col-xl-9 col-lg-8 col-md-12 m-b30">
                             <!--Filter Short By-->
-                            <div class="twm-right-section-panel site-bg-gray">
-                                <form>
-                                    <!--Basic Information-->
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading wt-panel-heading p-a20">
-                                            <h4 class="panel-tittle m-a0">Change Your Password</h4>
-                                        </div>
-                                        <div class="panel-body wt-panel-body p-a20 ">
-                                            
-                                                <div class="row">
-                                                        <div class="col-lg-6 col-md-6">
-                                                            <div class="form-group">
-                                                                <label>Old Password</label>
-                                                                <div class="ls-inputicon-box"> 
-                                                                    <input class="form-control wt-form-control" name="company_name" type="password" placeholder="">
-                                                                    <i class="fs-input-icon fa fa-lock "></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6">
-                                                            <div class="form-group">
-                                                                <label>New Password</label>
-                                                                <div class="ls-inputicon-box"> 
-                                                                    <input class="form-control wt-form-control" name="company_name" type="password" placeholder="">
-                                                                    <i class="fs-input-icon fa fa-lock"></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        
-                                                        <div class="col-lg-12 col-md-12">
-                                                            <div class="form-group">
-                                                                <label>Confirm New Password</label>
-                                                                <div class="ls-inputicon-box"> 
-                                                                    <input class="form-control wt-form-control" name="company_name" type="password" placeholder="">
-                                                                    <i class="fs-input-icon fa fa-lock"></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                                        
-                                                        <div class="col-xl-12 col-lg-12 col-md-12">                                   
-                                                        <div style="text-align: center;">
-                                                            <button type="submit" class="site-button">Save Changes</button>
-                                                        </div>
-                                                    </div>                                  
-                                                </div>
-                                                        
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                            <div class="resume-container">
+                                <div class="resume-preview">
+                                    <h2> Profile Video</h2>
+                                    <br>
+                                
+                                        <div class="alert-info"></div>
+                                    
 
+                                    
+                                        <p>Below is your uploaded profile video:</p>
+                                        
+                                        <br><br><br><br><br>
+                                
+                                        <p>No video uploaded yet. Please upload your video from your profile page.</p>
+                                
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>   
-            <!-- OUR BLOG END -->
-          
-            
-     
         </div>
-        <!-- CONTENT END -->
-    <?php
-    include('footer.php');
-    ?>
-    
-
- 	</div>
-
+<?php
+include('Footers.php');
+?>
 
 <!-- JAVASCRIPT  FILES ========================================= --> 
 <script  src="js/jquery-3.6.0.min.js"></script><!-- JQUERY.MIN JS -->
@@ -239,22 +197,21 @@
 <!-- STYLE SWITCHER  ======= --> 
 <div class="styleswitcher">
 
-    
-    
+   
     <div class="styleswitcher-inner">
     
         <h6 class="switcher-title">Color Skin</h6>
         <ul class="color-skins">
-            <li><a class="theme-skin skin-1" href="candidate-change-passworda39b.html?theme=css/skin/skin-1"></a></li>
-            <li><a class="theme-skin skin-2" href="candidate-change-password61e7.html?theme=css/skin/skin-2"></a></li>
-            <li><a class="theme-skin skin-3" href="candidate-change-passwordcce5.html?theme=css/skin/skin-3"></a></li>
-            <li><a class="theme-skin skin-4" href="candidate-change-password13f7.html?theme=css/skin/skin-4"></a></li>
-            <li><a class="theme-skin skin-5" href="candidate-change-password19a6.html?theme=css/skin/skin-5"></a></li>
-            <li><a class="theme-skin skin-6" href="candidate-change-passwordfe5c.html?theme=css/skin/skin-6"></a></li>
-            <li><a class="theme-skin skin-7" href="candidate-change-passwordab47.html?theme=css/skin/skin-7"></a></li>
-            <li><a class="theme-skin skin-8" href="candidate-change-password5f8d.html?theme=css/skin/skin-8"></a></li>
-            <li><a class="theme-skin skin-9" href="candidate-change-password5663.html?theme=css/skin/skin-9"></a></li>
-            <li><a class="theme-skin skin-10" href="candidate-change-password28ac.html?theme=css/skin/skin-10"></a></li>
+            <li><a class="theme-skin skin-1" href="candidate-profilea39b.html?theme=css/skin/skin-1"></a></li>
+            <li><a class="theme-skin skin-2" href="candidate-profile61e7.html?theme=css/skin/skin-2"></a></li>
+            <li><a class="theme-skin skin-3" href="candidate-profilecce5.html?theme=css/skin/skin-3"></a></li>
+            <li><a class="theme-skin skin-4" href="candidate-profile13f7.html?theme=css/skin/skin-4"></a></li>
+            <li><a class="theme-skin skin-5" href="candidate-profile19a6.html?theme=css/skin/skin-5"></a></li>
+            <li><a class="theme-skin skin-6" href="candidate-profilefe5c.html?theme=css/skin/skin-6"></a></li>
+            <li><a class="theme-skin skin-7" href="candidate-profileab47.html?theme=css/skin/skin-7"></a></li>
+            <li><a class="theme-skin skin-8" href="candidate-profile5f8d.html?theme=css/skin/skin-8"></a></li>
+            <li><a class="theme-skin skin-9" href="candidate-profile5663.html?theme=css/skin/skin-9"></a></li>
+            <li><a class="theme-skin skin-10" href="candidate-profile28ac.html?theme=css/skin/skin-10"></a></li>
             
         </ul>           
         
@@ -265,5 +222,5 @@
 </body>
 
 
-<!-- Mirrored from thewebmax.org/jobzilla/candidate-change-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2024 05:24:56 GMT -->
+<!-- Mirrored from thewebmax.org/jobzilla/candidate-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Dec 2024 05:24:41 GMT -->
 </html>

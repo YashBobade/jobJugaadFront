@@ -226,12 +226,9 @@
                                                                 Continue with Google
                                                             </button>
                                                         </div>
-                                                    </div>
-                                                    
-                                                    
+                                                    </div>    
                                                 </div>
-                                            </div>
-                                        
+                                            </div>    
                                         </div>
                                     </div>
                                 </div>

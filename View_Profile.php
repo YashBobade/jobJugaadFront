@@ -81,7 +81,7 @@ include('header.php');
                             <div>
                                 <ul class="wt-breadcrumb breadcrumb-style-2">
                                     <li><a href="index.html">Home</a></li>
-                                    <li>Candidate Profile</li>
+                                    <li>View Profile</li>
                                 </ul>
                             </div>
                         
@@ -124,8 +124,8 @@ include('header.php');
                                 <div class="twm-nav-list-1">
                                     <ul>
                                         <li><a href="candidate-dashboard.php"><i class="fa fa-tachometer-alt"></i> Dashboard</a></li>
-                                        <li ><a href="candidate-profile.php"><i class="fa fa-user"></i> My Profile</a></li>
-                                        <li><a href="View_Profile.php"><i class="fa fa-eye"></i> View Profile</a></li>
+                                        <li class="active"><a href="candidate-profile.php"><i class="fa fa-user"></i> My Profile</a></li>
+                                        <li><a href="candidate-profile.php"><i class="fa fa-eye"></i> View Profile</a></li>
                                         <li><a href="candidate-jobs-applied.php"><i class="fa fa-suitcase"></i> Applied Jobs</a></li>
                                         <li><a href="candidate-my-resume.php"><i class="fa fa-receipt"></i> Your Resume</a></li>
                                         <li><a href="candidate-intro-video.php"><i class="fa fa-video"></i> Introduction Video</a></li>
@@ -149,7 +149,7 @@ include('header.php');
                                     <!--Basic Information-->
                                     <div class="panel panel-default">
                                         <div class="panel-heading wt-panel-heading p-a20">
-                                            <h4 class="panel-tittle m-a0">Basic Informations</h4>
+                                            <h4 class="panel-tittle m-a0">Your Informations</h4>
                                         </div>
                                         <div class="panel-body wt-panel-body p-a20 m-b30 ">
                                             
@@ -159,7 +159,7 @@ include('header.php');
                                                         <div class="form-group">
                                                             <label>Your Name</label>
                                                             <div class="ls-inputicon-box"> 
-                                                                <input class="form-control" name="company_name" type="text" placeholder="Devid Smith">
+                                                                
                                                                 <i class="fs-input-icon fa fa-user "></i>
                                                             </div>
                                                         </div>
@@ -168,10 +168,15 @@ include('header.php');
                                                     <div class="col-xl-6 col-lg-6 col-md-12">
                                                         <div class="form-group">
                                                             <label>Email Address</label>
-                                                            <div class="ls-inputicon-box"> 
-                                                                <input class="form-control" name="company_Email" type="email" placeholder="Devid@example.com">
-                                                                <i class="fs-input-icon fas fa-at"></i>
-                                                            </div>
+                                                            <div class="ls-inputicon-box d-flex align-items-center">
+                                                            <!-- Logo -->
+                                                            
+                                                            
+                                                            <!-- Displaying Email from Database -->
+                                                            <span class="form-control-plaintext">
+                                                                yash <!-- Replace with actual database value -->
+                                                            </span>
+                                                        </div>
                                                         </div>
                                                     </div>
 
@@ -187,18 +192,14 @@ include('header.php');
                                                     
 
                                                     <div class="col-xl-6 col-lg-6 col-md-12">
-    <div class="form-group">
-        <label>Date Of Birth</label>
-        <div class="ls-inputicon-box" style="position: relative;">
-            <input type="date" name="dob" class="form-control" id="dob" 
-                style="border-color: #1967d2; color: #adb5bd;" />
-            <i class="fs-input-icon fa fa-calendar" style="color: #1967d2; position: absolute; right: 10px; top: 50%; transform: translateY(-50%);"></i>
-        </div>
-    </div>
-</div>
-
-
-                                                    
+                                                        <div class="form-group">
+                                                            <label>Date Of Birth</label>
+                                                            <div class="ls-inputicon-box"> 
+                                                            <input type="date" name="dob" class="form-control">
+                                                                <i class="fs-input-icon fa fa-user-graduate"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                                     <div class="col-xl-6 col-lg-6 col-md-12">
                                                         <div class="form-group">
@@ -233,21 +234,18 @@ include('header.php');
                                                     <div class="col-xl-6 col-lg-6 col-md-12">
                                                         <div class="form-group">
                                                             <label>Gender</label>
-                                                            <div class="ls-inputicon-box" style="position: relative;">
-                                                                <select class="form-control" name="gender" 
-                                                                    style="border-color: #1967d2; color: #adb5bd;">
+                                                            <div class="ls-inputicon-box">
+                                                                <select class="form-control" name="gender">
                                                                     <option value="" disabled selected>Select Gender</option>
                                                                     <option value="male">Male</option>
                                                                     <option value="female">Female</option>
                                                                     <option value="other">Other</option>
                                                                     <option value="prefer_not_to_say">Prefer not to say</option>
                                                                 </select>
-                                                                <i class="fs-input-icon fa fa-venus-mars" 
-                                                                    style="color: #1967d2; position: absolute; right: 10px; top: 50%; transform: translateY(-50%);"></i>
+                                                                <i class="fs-input-icon fa fa-venus-mars"></i>
                                                             </div>
                                                         </div>
                                                     </div>
-
 
                                                     <div class="col-xl-6 col-lg-6 col-md-12">
                                                         <div class="form-group">
@@ -282,9 +280,8 @@ include('header.php');
                                                     <div class="col-xl-6 col-lg-6 col-md-12">
                                                         <div class="form-group">
                                                             <label>Experience</label>
-                                                            <div class="ls-inputicon-box" style="position: relative;">
-                                                                <select class="form-control" name="experience" 
-                                                                    style="border-color: #1967d2; color: #adb5bd;">
+                                                            <div class="ls-inputicon-box">
+                                                                <select class="form-control" name="experience">
                                                                     <option value="" disabled selected>e.g. Fresher, 1-2 Years</option>
                                                                     <option value="fresher">Fresher</option>
                                                                     <option value="1-2">1-2 Years</option>
@@ -292,12 +289,10 @@ include('header.php');
                                                                     <option value="6-10">6-10 Years</option>
                                                                     <option value="10+">10+ Years</option>
                                                                 </select>
-                                                                <i class="fs-input-icon fas fa-briefcase" 
-                                                                    style="color: #1967d2; position: absolute; right: 10px; top: 50%; transform: translateY(-50%);"></i>
+                                                                <i class="fs-input-icon fas fa-briefcase"></i>
                                                             </div>
                                                         </div>
                                                     </div>
-
 
 
                 
@@ -328,13 +323,38 @@ include('header.php');
                                                             <label>City</label>
                                                             <div class="ls-inputicon-box">  
                                                                 <input class="form-control" name="company_since" type="text" placeholder="Enter City">
-                                                                <i class="fs-input-icon fa fa-home"></i>
+                                                                <i class="fs-input-icon fa fa-globe-americas"></i>
                                                             </div>
                                                             
                                                         </div>
                                                     </div>
+
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label>Description</label>
+                                                            <textarea class="form-control" rows="3">Greetings! when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</textarea>
+                                                        </div>
+                                                    </div>
                                                     
-                                                        <h4 class="panel-tittle m-a0">Social Networks</h4><br>
+                                                                                                                
+                                                    <div class="col-xl-12 col-lg-12 col-md-12">                                   
+                                                        <div class="text-left">
+                                                            <button type="submit" class="site-button">Save Changes</button>
+                                                        </div>
+                                                    </div>  
+                                                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Social Network-->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading wt-panel-heading p-a20">
+                                            <h4 class="panel-tittle m-a0">Social Network</h4>
+                                        </div>
+                                        <div class="panel-body wt-panel-body p-a20 m-b30 ">
+                                            
+                                            <div class="row">
                                                     
                                                     <div class="col-xl-4 col-lg-6 col-md-12">
                                                         <div class="form-group">
@@ -376,114 +396,26 @@ include('header.php');
                                                             </div>
                                                         </div>
                                                     </div>    
-
-                                                    <div class="col-xl-4 col-lg-6 col-md-12">    
-                                                        <div class="form-group">
-                                                            <label>GitHub Link</label>
-                                                            <div class="ls-inputicon-box"> 
-                                                                <input class="form-control wt-form-control" name="company_name" type="text" placeholder="https://in.GitHub.com/">
-                                                                <i class="fs-input-icon fab fa-github"></i>
-                                                            </div>
-                                                        </div>                 
-                                                    </div>
                                                         
                                                     <div class="col-xl-4 col-lg-6 col-md-12">    
                                                         <div class="form-group">
                                                             <label>PortFolio Link</label>
                                                             <div class="ls-inputicon-box"> 
-                                                                <input class="form-control wt-form-control" name="company_name" type="text" placeholder="https://in.YourPortfolio.com/">
+                                                                <input class="form-control wt-form-control" name="company_name" type="text" placeholder="https://in.pinterest.com/">
                                                                 <i class="fs-input-icon fab fa-pinterest-p"></i>
                                                             </div>
                                                         </div>                 
                                                     </div>
-
-                                                    <h4 class="panel-tittle m-a0">Uploads</h4><br>
-                                                    
-                                                    <div class="col-xl-6 col-lg-6 col-md-12">
-                                                        <div class="form-group city-outer-bx has-feedback">
-                                                            <label>Resume</label>
-                                                            <div class="ls-inputicon-box">
-                                                                <input 
-                                                                    type="file" 
-                                                                    id="resume_path" 
-                                                                    name="resume_path" 
-                                                                    class="form-control" 
-                                                                    accept=".pdf,.doc,.docx" 
-                                                                    onchange="updateResumeName(this)">
-                                                                <i class="fs-input-icon fa fa-file-upload"></i>
-                                                            </div>
-                                                            <?php if (!empty($user['resume_path'])): ?>
-                                                                <small>
-                                                                    <span id="currentResumeName">
-                                                                        Uploaded Resume: <?= htmlspecialchars(basename($user['resume_path'])) ?>
-                                                                    </span>
-                                                                </small>
-                                                                <input 
-                                                                    type="hidden" 
-                                                                    name="current_resume" 
-                                                                    value="<?= htmlspecialchars($user['resume_path']) ?>">
-                                                            <?php else: ?>
-                                                                <small id="currentResumeName">No resume uploaded yet.</small>
-                                                            <?php endif; ?>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-xl-6 col-lg-6 col-md-12">
-                                                        <div class="form-group city-outer-bx has-feedback">
-                                                            <label>Introduction Video</label>
-                                                            <div class="ls-inputicon-box">
-                                                                <input 
-                                                                    type="file" 
-                                                                    id="intro_video_path" 
-                                                                    name="intro_video_path" 
-                                                                    class="form-control" 
-                                                                    accept="video/mp4,video/avi,video/mov,video/wmv"
-                                                                    onchange="updateVideoName(this)">
-                                                                <i class="fs-input-icon fa fa-video"></i>
-                                                            </div>
-                                                            <?php if (!empty($user['intro_video_path'])): ?>
-                                                                <small>
-                                                                    <span id="currentVideoName">
-                                                                        Uploaded Video: <?= htmlspecialchars(basename($user['intro_video_path'])) ?>
-                                                                    </span>
-                                                                </small>
-                                                                <input 
-                                                                    type="hidden" 
-                                                                    name="current_video" 
-                                                                    value="<?= htmlspecialchars($user['intro_video_path']) ?>">
-                                                                <div class="mt-3">  
-                                                                    <a href="candidates-dashboard-my-Intro-video.php" class="nav-link">
-                                                                        <span class="icon"><i class="ri-video-line"></i></span>
-                                                                        <span class="menu-title">View Introduction Video</span>
-                                                                    </a>
-                                                                </div>
-                                                            <?php else: ?>
-                                                                <small id="currentVideoName">No video uploaded yet.</small>
-                                                            <?php endif; ?>
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <label>Description</label>
-                                                            <textarea class="form-control" rows="3" placeholder="Enterr description...."></textarea>
-                                                        </div>
-                                                    </div>
                                                     
                                                                                                                 
                                                     <div class="col-xl-12 col-lg-12 col-md-12">                                   
-                                                        <div style="text-align: center;">
+                                                        <div class="text-left">
                                                             <button type="submit" class="site-button">Save Changes</button>
                                                         </div>
-                                                    </div>
-                            
-                                                </div>
-                                            </div>
+                                                    </div>  
+                                            </div>         
                                         </div>
                                     </div>
-                                    
                                 </form>
                             </div>
                         </div>

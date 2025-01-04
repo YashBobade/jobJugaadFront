@@ -576,8 +576,8 @@
         </div>
         <!-- CONTENT END -->
         <div class="modal fade" id="apply_job_popup" aria-hidden="true" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="sign_up_popupLabel">Apply For This Job</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

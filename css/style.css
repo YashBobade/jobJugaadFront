@@ -12913,7 +12913,7 @@ strong {
   }
 }
 .twm-dashboard-candidates-wrap .twm-dash-candidates-list .twm-media {
-  width: 70px;
+  width: 40px;
   display: inline-block;
   margin-right: 10px;
 }
@@ -14882,7 +14882,7 @@ strong {
 }
 /*Candidate pages start------------------------------------------------------------*/
 .side-bar-st-1 {
-  background: #d4e6ff;
+  background:red;
   padding: 30px;
   border-radius: 10px;
 }
